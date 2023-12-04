@@ -1,18 +1,25 @@
+html{
+  scroll-behavior: smooth;
+}
+
 .header{
     background-color: black;
     display: flex;
+    justify-content: space-between;
+
  
 }
 
 h2{
     color: white;
+    scroll-behavior: smooth;
     
 }
 
 nav a{
     color: #fff;
-    margin-left: 20px;
-}
+    margin-left: 20px; 
+} 
 
 button{
     font-size: 18px;
@@ -21,9 +28,9 @@ button{
     height: 30px;
 }
 
-.links {
+/* .links {
    text-align: center;
-}
+} */
 
 .buttons{
     text-align: right;
@@ -36,9 +43,9 @@ button{
     border-radius: 3px;
 }
 
-.header2{
+/* .header2{
     display: inline-block;
-}
+} */
 
 #homepage{
     
@@ -75,6 +82,8 @@ button{
 
 }
 
+
+
 .agri_info p{
     font-size: 18px;
 }
@@ -95,7 +104,7 @@ table {
   }
 
   .section2{
-    margin-top: 100px;
+    margin-top: 150px;
   }
 
   .section2 h2{
@@ -105,3 +114,56 @@ table {
   .section2 p{
     font-size: 18px;
   }
+
+  .section2 h2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #f68b1e;
+  }
+
+  .secretary img{
+    width: 400px;
+    
+  }
+
+  .secretary {
+       position: absolute;
+       left: 45%;
+       top: 115%;
+  }
+
+  .categories h2{
+    color: black;
+  }
+  .categories{
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .popularity h2{
+    color: black;
+  }
+
+  .images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1em;
+    margin-left: 35px;
+  }
+
+  .images img{
+    width: 200px;
+  }
+
+  .popularity{
+    margin-left: 35px;
+  }
+
+  .links{
+    scroll-behavior: smooth;
+  }
+
+
+
+
+
