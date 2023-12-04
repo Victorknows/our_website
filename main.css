@@ -1,0 +1,107 @@
+.header{
+    background-color: black;
+    display: flex;
+ 
+}
+
+h2{
+    color: white;
+    
+}
+
+nav a{
+    color: #fff;
+    margin-left: 20px;
+}
+
+button{
+    font-size: 18px;
+    width: 100px;
+    font-family: Poppins, Inter;
+    height: 30px;
+}
+
+.links {
+   text-align: center;
+}
+
+.buttons{
+    text-align: right;
+    margin-top: 0;
+}
+
+.start{
+    background-color: #f68b1e;
+    border: none;
+    border-radius: 3px;
+}
+
+.header2{
+    display: inline-block;
+}
+
+#homepage{
+    
+    background-image: url(image\ 1\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    
+}
+.about{
+    width: 400px;
+}
+
+.veggies img {
+    width: 400px;
+}
+.veggies{
+    position: absolute;
+    display: inline-block;
+    left: 58%;
+    top: 15%;
+}
+
+#explore{
+    width: 150px;
+    background-color: #f68b1e;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    height: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+
+}
+
+.agri_info p{
+    font-size: 18px;
+}
+
+.stats{
+    border-spacing: 10px 20px;
+    position: absolute;
+    left: 20%;
+    background-color: #fff;
+    top: 85%;
+    margin-bottom: 100px;
+    
+}
+table {
+    border-spacing: 40px;
+    box-shadow: 0px 5px 8px black;
+    
+  }
+
+  .section2{
+    margin-top: 100px;
+  }
+
+  .section2 h2{
+    color: black;
+  }
+
+  .section2 p{
+    font-size: 18px;
+  }
